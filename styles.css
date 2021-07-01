@@ -73,9 +73,28 @@ header .profile-image {
   border: 3px solid white;
   transition: all .5s;
 }
+
+.card .profile-image{
+  margin-top: 50px;
+  width: 10em;
+  height: 10em;
+  border: 3px solid white;
+  transition: all .5s;
+  margin-left: 120px;
+}
+
+.card .hobbies-images{
+  margin-top: 50px;
+  width: 10em;
+  height: 10em;
+  border: 3px solid white;
+  transition: all .5s;
+  margin-left: 120px;
+}
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
+
 .tag {
   background-color: #efefef;
   color: black;
@@ -87,6 +106,14 @@ header .profile-image:hover {
 .location {
   background-color: #222;
   color: yellow;
+}
+
+.experience {
+  color: lightblue;
+}
+
+h2 {
+  text-align: center;
 }
 .card {
   margin: 30px;
